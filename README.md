@@ -25,6 +25,8 @@ Release:	20.04
 
 Codename:	focal
 
+1. Install softwares 
+
 Install boost_1_75_0 and g++ compiler on ubuntu virtual machine 2
 
 cd /tmp
@@ -68,7 +70,7 @@ make
 
 in build file folder, there should be like: MakeCache.txt  CMakeFiles  cmake_install.cmake  Makefile  uart_receiver_printer
 
-4) Testing
+3) Testing
    
 *) Setup two Virtual machines communicating each other by virtual UART.
 
@@ -165,7 +167,7 @@ For VM1: stty -F /dev/ttyS0 -a
 
 For VM2: stty -F /dev/ttyS1 -a
 
-3) A quick way to test UART communication on both VMs.
+2) A quick way to test UART communication on both VMs.
    
 in VM1: 
 
